@@ -1,0 +1,169 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(118, 225, 235);
+}
+
+.one {
+    position: relative;
+    width:70%;
+    height: 85vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.l {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(57, 134, 190);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 50px;
+}
+
+.form{
+    position: absolute;
+    align-items: left;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+.l h2 {
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.l p {
+    margin: 20px 0;
+    color: rgb(203, 202, 202);
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: system-ui;
+}
+
+.l p span {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.l button {
+    padding: 12px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+}
+
+.form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 50px;
+}
+
+.form h2 {
+    color: rgb(57, 134, 190);
+    margin-bottom: 30px;
+}
+
+.form form {
+    overflow: hidden;
+    margin: auto;
+}
+
+.form .Left {
+    float: left;
+    width: 48%;
+    margin-bottom: 20px
+}
+
+.form .Left label {
+    margin-bottom: 15px;
+}
+
+.form .Right {
+    float: right;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form input {
+    position: relative;
+    padding: 10px 10px;
+    width: 170px;
+    border: 1px solid rgb(188, 184, 184);
+    margin-top: 5px;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+
+
+.form label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form input[type="email"] {
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.one input[type="checkbox"] {
+    padding: 0;
+    width: 25px;
+    margin-top: 25px;
+}
+
+.form button {
+    padding: 10px 35px;
+    margin-top: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(56, 133, 188);
+    border: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+#checkbox a {
+    color: rgb(56, 133, 188);
+}
+
+#checkbox span {
+    font-size: 14px;
+    font-weight: bold;
+}
+.icon {
+    align-items: left;
+    padding-right: 25px;
+    background: url("https://thenounproject.com/api/private/icons/861557/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0&token=gAAAAABja6GwnrI9-qZJwvs_GLYnZQLhwLJfcbxCqY8u2iyStI8Gqympk6F--V7xrC8NYtnH__75_QyAG5lsJX80ZW3uh2Gi7g%3D%3D") no-repeat left;
+    background-size: 20px;
+  }
+  .pass {
+    align-items: left;
+    padding-right: 25px;
+    background: url("https://thenounproject.com/api/private/icons/1791101/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0&token=gAAAAABja6GwnrI9-qZJwvs_GLYnZQLhwLJfcbxCqY8u2iyStI8Gqympk6F--V7xrC8NYtnH__75_QyAG5lsJX80ZW3uh2Gi7g%3D%3D") no-repeat left;
+    background-size: 20px;
+  }
